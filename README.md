@@ -62,8 +62,8 @@ SpringReact/
 ### 1. 백엔드 실행 (Spring Boot)
 
 ```bash
-# front 디렉토리로 이동
-cd front
+# back 디렉토리로 이동
+cd back
 
 # Maven을 사용하여 애플리케이션 실행
 ./mvnw spring-boot:run
