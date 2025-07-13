@@ -26,7 +26,7 @@ Spring Boot와 React를 활용한 중고거래 플랫폼입니다. 사용자가 
 
 ```
 SpringReact/
-├── front/                    # Spring Boot 백엔드
+├── back/                    # Spring Boot 백엔드
 │   ├── src/main/java/com/example/spring_0306/
 │   │   ├── Spring0306Application.java     # 메인 애플리케이션
 │   │   ├── Product.java                  # 상품 엔티티
@@ -38,7 +38,7 @@ SpringReact/
 │   │   └── WebConfig.java               # 웹 설정 (정적 리소스)
 │   ├── src/main/resources/
 │   └── pom.xml                          # Maven 설정
-├── back/                     # React 프론트엔드
+├── front/                     # React 프론트엔드
 │   ├── src/
 │   │   ├── components/              # React 컴포넌트
 │   │   │   ├── Header.js           # 헤더 컴포넌트
@@ -72,6 +72,8 @@ cd back
 ```
 
 백엔드는 `http://localhost:8080`에서 실행됩니다.
+
+실행에 오류가 발생하면 'back'폴더의 이름을 'spring_0306'으로 변경해주세요.
 
 ### 2. 프론트엔드 실행 (React)
 
