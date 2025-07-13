@@ -76,8 +76,8 @@ cd back
 ### 2. 프론트엔드 실행 (React)
 
 ```bash
-# miniproject 디렉토리로 이동
-cd miniproject
+# front 디렉토리로 이동
+cd front
 
 # 의존성 설치
 npm install
