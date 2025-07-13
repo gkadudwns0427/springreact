@@ -26,7 +26,7 @@ Spring Boot와 React를 활용한 중고거래 플랫폼입니다. 사용자가 
 
 ```
 SpringReact/
-├── spring_0306/                    # Spring Boot 백엔드
+├── front/                    # Spring Boot 백엔드
 │   ├── src/main/java/com/example/spring_0306/
 │   │   ├── Spring0306Application.java     # 메인 애플리케이션
 │   │   ├── Product.java                  # 상품 엔티티
@@ -38,7 +38,7 @@ SpringReact/
 │   │   └── WebConfig.java               # 웹 설정 (정적 리소스)
 │   ├── src/main/resources/
 │   └── pom.xml                          # Maven 설정
-├── miniproject/                     # React 프론트엔드
+├── back/                     # React 프론트엔드
 │   ├── src/
 │   │   ├── components/              # React 컴포넌트
 │   │   │   ├── Header.js           # 헤더 컴포넌트
@@ -62,8 +62,8 @@ SpringReact/
 ### 1. 백엔드 실행 (Spring Boot)
 
 ```bash
-# spring_0306 디렉토리로 이동
-cd spring_0306
+# front 디렉토리로 이동
+cd front
 
 # Maven을 사용하여 애플리케이션 실행
 ./mvnw spring-boot:run
